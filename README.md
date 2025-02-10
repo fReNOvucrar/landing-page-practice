@@ -1,1 +1,1 @@
-# static-practice
+# landing-page-practice
