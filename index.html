@@ -12,16 +12,19 @@
         <div class="left-full-height">
           <div class="left-bubble">
             <div class="left-bubble-inner">
-              <h1>Article Title</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                placeat odio alias architecto expedita obcaecati laboriosam ipsa
-                reprehenderit vitae. Temporibus error quia rem repellendus nulla
-                soluta dignissimos assumenda, voluptatibus impedit.
-              </p>
-              <div class="button-div">
-                <button>Learn More</button>
-              </div>
+              <form action="POST">
+                <div class="label-and-input">
+                  <label for="name">Name</label>
+                  <br />
+                  <input type="text" id="name" required />
+                </div>
+                <div class="label-and-input">
+                  <label for="email">Email</label>
+                  <br />
+                  <input type="email" id="email" required />
+                </div>
+                <button class="button-15" role="button">Submit</button>
+              </form>
             </div>
           </div>
         </div>
